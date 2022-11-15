@@ -16,3 +16,18 @@ class ActivityLog(models.Model):
     weight = models.FloatField(blank=True)
     reps = models.IntegerField(blank=True)
     distance = models.FloatField(blank=True)
+
+class Workout (models.Model):
+    name = models.CharField(max_length=30)
+    description = models.TextField(blank=True)
+
+class Goal (models.Model):
+    name = models.CharField(max_length=30)
+    description = models.TextField(blank=True)
+    completion_status = models.BooleanField(default=False)
+    category = models.CharField(max_length=10)
+    start_status = models.FloatField()
+    current_status = models.FloatField()
+    target_status = models.FloatField()
+
+
