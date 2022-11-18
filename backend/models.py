@@ -31,6 +31,7 @@ class Goal (models.Model):
     start_status = models.FloatField()
     current_status = models.FloatField()
     target_status = models.FloatField()
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
 class StatSheet (models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True, related_name='stat_sheet')
