@@ -1,0 +1,25 @@
+[
+    {
+      "model": "actively.User",
+      "pk": 1,
+      "fields": {
+        "username" : "defaultuser01",
+        "email" : "defaultuser01@mail.com",
+        "password" : "password",
+        "first_name" : "Defaul",
+        "middle_initial" : "T",
+        "last_name" : "Usah"
+      }
+    },
+    {
+      "model": "actively.User",
+      "pk": 2,
+      "fields": {
+        "username" : "mrpaulmcdonald",
+        "email" : "olpaul@mail.com",
+        "password" : "password",
+        "first_name" : "Paul",
+        "last_name" : "McCartny"
+      }
+    }
+  ]
