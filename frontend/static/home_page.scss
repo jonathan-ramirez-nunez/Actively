@@ -1,6 +1,11 @@
-#root {
-    background:aqua;
+body {
+    background:gray;
+}
+h1 {
+    background:gray;
     display: flex;
     justify-content: center;
-    size: 100;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Helvetica;
 }
